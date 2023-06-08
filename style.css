@@ -79,13 +79,15 @@ main {
   background: var(--white);
   border-radius: var(--rounded);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  width: 100%;
-  max-width: 30rem;
+  /* width: 100%;
+  max-width: 30rem; */
   background-image: url(images/bg-pattern-desktop.svg);
   background-size: 15rem;
   background-position: top -7rem center;
   background-repeat: no-repeat;
   outline: 2px solid rgb(110, 110, 154);
+  
+  border: 2px solid red;
 }
 
 .container .image-wrapper {
@@ -193,7 +195,7 @@ hr {
 
 /* _______________________MEDIA QUERIES_____________________ */
 /* smaller screen */
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
   .container {
     padding: 0 2rem 2rem 2rem;
   }
@@ -204,6 +206,12 @@ hr {
 
   .container .image-wrapper .mobile-img {
     bottom: 6rem;
+  }
+
+  .accordion-items .accordion-questions.active h2 {
+    color: var(--Very-dark-desaturated-blue);
+    /* font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold); */
   }
 }
 
