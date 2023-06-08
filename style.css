@@ -87,7 +87,7 @@ main {
   background-repeat: no-repeat;
   outline: 2px solid rgb(110, 110, 154);
   
-  border: 2px solid rgb(33, 165, 185);
+  /* border: 2px solid rgb(33, 165, 185); */
 }
 
 .container .image-wrapper {
