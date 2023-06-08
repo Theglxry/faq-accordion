@@ -14,6 +14,13 @@ The FAQ Accordion Card Challenge is a Frontend Mentors challenge that tests and 
 
 The challenge provides a design file in PNG format and a starter code file with the basic structure of the HTML markup. The task is to complete the implementation by adding CSS styles and JavaScript functionality to create an accordion-like behavior.
 
+
+ 
+### Links
+
+- Solution URL: [My Frontend Mentor Profile](https://www.frontendmentor.io/profile/Theglxry)
+- Live Site URL: [Go Live](https://theglxry.github.io/faq-accordion/)
+
 ## Solution Overview
 
 In my solution, I used HTML, CSS, and JavaScript to create a responsive FAQ accordion card. Here's an overview of the main components and features of my implementation:
