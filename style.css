@@ -74,20 +74,17 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 2rem 2rem 4rem 2rem;
+  padding: 2rem 2rem 2.75rem 2rem;
   justify-content: center;
   background: var(--white);
   border-radius: var(--rounded);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  /* width: 100%;
-  max-width: 30rem; */
   background-image: url(images/bg-pattern-desktop.svg);
   background-size: 15rem;
   background-position: top -7rem center;
   background-repeat: no-repeat;
   outline: 2px solid rgb(110, 110, 154);
   
-  /* border: 2px solid rgb(33, 165, 185); */
 }
 
 .container .image-wrapper {
@@ -110,7 +107,7 @@ main {
 
 /**____________________________________ ACCORDION STYLING _____________________*/
 .accordion {
-  width: 20rem;
+  /* width: 20rem; */
 }
 
 .accordion .faq-heading {
@@ -155,7 +152,6 @@ main {
   overflow: hidden;
   opacity: 0;
   transition: max-height 0.3s ease ease-out, opacity 0.3s ease;
-  /* animation: sweep .5s ease-in-out; */
 }
 
 .accordion-answer p {
@@ -177,7 +173,6 @@ main {
   animation-name: sweep;
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  /* animation:  sweeop .5s ease-in-out; */
 }
 
 .accordion-items .active .arrow-icon {
@@ -194,13 +189,25 @@ hr {
 }
 
 /* _______________________MEDIA QUERIES_____________________ */
+/* for really small screens */
+@media screen and (max-width: 280px) {
+  .container{ 
+    max-width: 20rem;
+    align-items: center;
+  }
+  .accordion{
+    /* padding: 1rem; */
+  }
+}
+
 /* smaller screen */
 @media screen and (max-width: 412px) {
+ 
   .container {
     padding: 0 2rem 2rem 2rem;
   }
   .accordion {
-    max-width: 20rem;
+    /* max-width: 20rem; */
     font-size: var(--font-size-very-small);
   }
 
@@ -215,6 +222,9 @@ hr {
 
 /* larger screens */
 @media screen and (min-width: 800px) {
+  main{
+    padding: 3.5rem;
+  }
   .container {
     display: flex;
     flex-direction: row;
