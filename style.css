@@ -87,7 +87,7 @@ main {
   background-repeat: no-repeat;
   outline: 2px solid rgb(110, 110, 154);
   
-  border: 2px solid red;
+  border: 2px solid rgb(33, 165, 185);
 }
 
 .container .image-wrapper {
@@ -195,7 +195,7 @@ hr {
 
 /* _______________________MEDIA QUERIES_____________________ */
 /* smaller screen */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 412px) {
   .container {
     padding: 0 2rem 2rem 2rem;
   }
@@ -210,8 +210,6 @@ hr {
 
   .accordion-items .accordion-questions.active h2 {
     color: var(--Very-dark-desaturated-blue);
-    /* font-size: var(--font-size-small);
-    font-weight: var(--font-weight-bold); */
   }
 }
 
