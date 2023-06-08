@@ -106,9 +106,6 @@ main {
 }
 
 /**____________________________________ ACCORDION STYLING _____________________*/
-.accordion {
-  /* width: 20rem; */
-}
 
 .accordion .faq-heading {
   text-align: center;
@@ -195,9 +192,7 @@ hr {
     max-width: 20rem;
     align-items: center;
   }
-  .accordion{
-    /* padding: 1rem; */
-  }
+ 
 }
 
 /* smaller screen */
