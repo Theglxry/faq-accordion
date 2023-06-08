@@ -74,7 +74,7 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   justify-content: center;
   background: var(--white);
   border-radius: var(--rounded);
@@ -195,7 +195,7 @@ hr {
 /* smaller screen */
 @media screen and (max-width: 374px) {
   .container {
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 2rem 2rem 2rem;
   }
   .accordion {
     max-width: 20rem;
@@ -255,18 +255,12 @@ hr {
     width: 100%;
     height: auto;
     display: block;
-
-    /* transform: scale(1.2); */
   }
 
   .desktop-view {
     clip-path: polygon(14% 0, 200% -100%, 100% 200%, 12% 200%);
     transform: translateX(-7.5rem);
   }
-
-  /* .desktop-img {
-    transform: scale(1.2);
-  } */
 
   .accordion {
     width: 40%;
